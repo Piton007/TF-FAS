@@ -1,0 +1,13 @@
+﻿spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fitness
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: create
+    generate-ddl: true
+    show-sql: true
+    
